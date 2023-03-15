@@ -6,24 +6,24 @@
     </head>
     <link rel="stylesheet" href="style.css">
     <body>
+        
     <div>
         <div>
-            <form action="index.html" method="post">
+            <form action="index.html" method="post" >
             <h1> Cadastrar usuário </h1>
             <fieldset>
-                <legend>1.Dados Pessoais</legend>
+                <legend > <span>1</span> Dados Pessoais</legend>
                 <div>
-                    <label>Nome:</label>
-                    <input type="text" name="nome" id="nome" style="width: 12%;">
+                    <label for="nome" >Nome:</label>
+                    <input type="text" name="nome" id="nome" class="TB">
 
-                    <label>Email:</label>
-                    <input type="email" name="email" id="email" style="width: 12%;">
+                    <label for="email" >Email:</label>
+                    <input type="email" name="email" id="email" class="TB">
                     
-                    <label>Senha:</label>
-                    <input type="password" name="senha" id="senha" style="width: 12%;">
-
-                    <label>Confirma Senha:</label>
-                    <input type="password" name="csenha" id="csenha" style="width: 12%;">
+                    <label for="senha" >Senha:</label>
+                    <input type="password" name="senha" id="senha" class="TB">
+                    <label for="csenha" >Confirma Senha:</label>
+                    <input type="password" name="csenha" id="csenha" class="TB">
                     
                     <label>Idade:</label>
                     <label>
@@ -36,7 +36,7 @@
             </fieldset>
 
             <fieldset>
-                <legend>2.Perfil</legend>
+                <legend><span>2</span>Perfil</legend>
                 <div>
                     <label>Descrição:</label>
                     <textarea name="descricao" id="descricao" rows="5"></textarea>
@@ -48,11 +48,11 @@
                         <option>Full-Stack Developer</option>
                     </select>
                     <label>Interesses:</label>
-                    <input type="checkbox" name="programador" id="programador">
+                    <input type="checkbox" name="programador" id="programador" class="cb">
                     <label for="programador">Programador</label>
-                    <input type="checkbox" name="design" id="design">
+                    <input type="checkbox" na\mbclkme="design" id="design" class="cb">
                     <label for="design">Design</label>
-                    <input type="checkbox" name="analista" id="analista">
+                    <input type="checkbox" name="analista" id="analista" class="cb">
                     <label for="analista">Analista</label>
                     
                 </div>
