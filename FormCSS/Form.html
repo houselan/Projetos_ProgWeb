@@ -5,11 +5,12 @@
         <title>Cadastro</title>
     </head>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Icone/ícone.png" type="image/x-icon">
     <body>
         
     <div>
         <div>
-            <form action="index.html" method="post" >
+            <form method="post" >
             <h1> Cadastrar usuário </h1>
             <fieldset>
                 <legend > <span>1</span> Dados Pessoais</legend>
@@ -26,12 +27,13 @@
                     <input type="password" name="csenha" id="csenha" class="TB">
                     
                     <label>Idade:</label>
-                    <div class="containeradio">
+
+                    <div class="cbr">
                         <label >
                             <input type="radio" name="idade" value="Ac17">Acima 17
                         </label>
                     </div>
-                    <div class="containeradio">
+                    <div class="cbr">
                         <label>
                             <input type="radio" name="idade" value="Ab17">Abaixo ou igual 17
                         </label>
@@ -52,13 +54,21 @@
                         <option>Full-Stack Developer</option>
                     </select>
                     <label>Interesses:</label>
-                    <input type="checkbox" name="programador" id="programador" class="cb">
-                    <label for="programador">Programador</label>
-                    <input type="checkbox" na\mbclkme="design" id="design" class="cb">
-                    <label for="design">Design</label>
-                    <input type="checkbox" name="analista" id="analista" class="cb">
-                    <label for="analista">Analista</label>
-                    
+
+                    <div class="cbr">
+                        <input type="checkbox" name="programador" id="programador">
+                        <label for="programador">Programador</label>
+                    </div>
+
+                    <div class="cbr">
+                        <input type="checkbox" name="design" id="design">
+                        <label for="design">Design</label>
+                    </div>
+
+                    <div class="cbr">
+                        <input type="checkbox" name="analista" id="analista">
+                        <label for="analista">Analista</label>
+                    </div>
                 </div>
             </fieldset>
                 <button type="submit">Enviar dados</button>
